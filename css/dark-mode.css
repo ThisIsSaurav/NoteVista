@@ -1,0 +1,16 @@
+.dark-mode{
+    background-color: #202020;
+}
+.dark-mode-half{
+    background-color: #808080;
+}
+.border-dark{
+    border-color: #202020;
+}
+
+.copy-note{
+    background-color: green;
+}
+.delete-note{
+    background-color: red;
+}

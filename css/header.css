@@ -1,0 +1,41 @@
+*{margin: 0;padding: 0;} 
+
+/* This below css is for header section #header  */
+:root{
+    --primaryColor : #2400FF;
+}
+header{
+    /* background-color: #424242; */
+    background-color: var(--primaryColor);
+    color: white;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header nav ul li{
+    list-style: none;
+    padding: 13px;
+}
+header nav ul li input{
+    padding: 8px 8px;
+    width: 300px;
+    border-radius: 12px;
+    border: none;
+}
+#dark{
+    background-color: white;
+    border-radius: 50%;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+

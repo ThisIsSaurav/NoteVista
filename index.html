@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Vista - The Way of Notes</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html"><img src="Img/logo 2.0.png" alt="Note Vista" width="100"></a>
+                </li>
+                <li>
+                    <input type="search" id="search-bar" placeholder="Search your notes...">
+                </li>
+
+                <li id="dark">
+                    <img src="Img/darkmode.png" alt="dark" width="30">
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="ground">
+            <h1>Drop Your Note Here 👇</h1>
+            <textarea name="note-area-tile" id="noteground-title" placeholder="Title"></textarea>
+            <textarea name="note-area" id="noteground" placeholder="Type Your Note.."></textarea>
+            <div class="notes-btns">
+                <div class="font-control">Select Font Size :- <input type="range" min="10" max="40" value="15"
+                        class="slider" id="myRange"><button class="submit-btn"></button></div>
+                <button class="add-btn" id="add">Add Note</button>
+            </div>
+        </div>
+
+        <!-- This Below area is for dropped notes  -->
+        <div class="user-note">
+            <div class="user-note-heading">
+                <h1>Your Droped Notes 👇</h1>
+            </div>
+        <!-- Below is tha full area of dropped notes  -->
+            <div id="notes-area"></div>
+        </div>
+    </main>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/font-size-slider.js"></script>
+    <script src="js/dark-mode.js"></script>
+</body>
+
+</html>
